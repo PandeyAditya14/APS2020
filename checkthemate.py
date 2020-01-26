@@ -12,4 +12,4 @@ if len(left_out_s) == 0:
     print(-1)
 else:
     for i in left_out_s:
-        print(i)
+        print(i)    

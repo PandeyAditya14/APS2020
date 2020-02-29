@@ -14,7 +14,7 @@ class Man:
         while (self.single):
             id = pref[nxt_pro]
             nxt_pro+=1
-            res =women[id].propose(self.id)
+            res =women[id-1].propose(self.id)
             if res == True:
                 self.single =True
     
@@ -36,7 +36,7 @@ class Woman:
         return self.pref.index( self.currentPartnerId ) < self.pref.index(id)
     
     def breakup():
-        men[id].breakup()
+        men[id-1].breakup()
 
     def propose(self , id):
         count+=1
@@ -46,7 +46,7 @@ class Woman:
             return True
         else:
             if(self.isBetter(id)):
-                breakup()
+                self.breakup()
                 self.currentPartnerId = id
                 self.single =False
                 return True
@@ -54,10 +54,13 @@ class Woman:
                 return False
     def printPref(self):
         print(self.pref)
+    def retCount(self):
+        return self.count
 
 
 
 n = int(input())
+
 
 for i in range(n):
     temp = list(map(int,input().split()))
@@ -70,4 +73,4 @@ for i in range(n):
 numquery = int(input())
 for _ in range(numquery):
     qu = int(input())
-    women[qu-1 ].printPref()
+    women[qu-1 ].count()

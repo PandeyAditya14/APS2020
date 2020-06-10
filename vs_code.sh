@@ -1,0 +1,15 @@
+code --install-extension bam.vscode-file-templates
+code --install-extension cschlosser.doxdocgen
+code --install-extension dracula-theme.theme-dracula
+code --install-extension dsznajder.es7-react-js-snippets
+code --install-extension emmanuelbeziat.vscode-great-icons
+code --install-extension mervin.markdown-formatter
+code --install-extension monokai.theme-monokai-pro-vscode
+code --install-extension ms-azuretools.vscode-docker
+code --install-extension ms-python.python
+code --install-extension ms-vscode.cpptools
+code --install-extension PKief.material-icon-theme
+code --install-extension ritwickdey.LiveServer
+code --install-extension steoates.autoimport
+code --install-extension vscode-icons-team.vscode-icons
+code --install-extension zhuangtongfa.material-theme

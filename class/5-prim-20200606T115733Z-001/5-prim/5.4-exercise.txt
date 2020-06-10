@@ -1,0 +1,14 @@
+** Prim Exercise **
+==================
+
+1. Comment on efficiency of Prim's algorithm. 
+
+2. What is the right data structure to implement Prim?
+
+3. What does Prim's compute? 
+
+4. Does the algorithm work if graph has two components?
+
+5. Explain the edge relaxation process.  
+
+6. What happens if we stop the algorithm in the middle?

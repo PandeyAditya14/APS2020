@@ -1,0 +1,14 @@
+** Floyd Exercise **
+==================
+
+1. Comment on efficiency of Floyd's algorithm. 
+
+2. What is the right data structure to implement Floyd?
+
+3. What does Floyd's compute? 
+
+4. Does the algorithm still work if the graph has negative weights?
+
+5. Can we do better than cubic efficiency? 
+
+6. Why does Floyd's algorithm work? Explain the intuition. 

@@ -1,0 +1,16 @@
+** Kruskal Exercise **
+==================
+
+1. Comment on efficiency of Kruskal's algorithm. 
+
+2. What is the right data structure to implement Kruskal?
+
+3. What does Kruskal's compute? 
+
+4. Does the algorithm work if graph has two or more components?
+
+5. What is the right data structure to implement Kruskal?
+
+6. What happens if we stop the algorithm in the middle?
+
+7. Differenciate between Kruskal and Prim. 

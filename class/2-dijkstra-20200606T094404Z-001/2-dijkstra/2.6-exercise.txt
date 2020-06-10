@@ -1,0 +1,12 @@
+** Dijkstra Exercise **
+==================
+
+1. Comment on efficiency of Dijkstra's algorithm. 
+
+2. What is the right data structure to implement Dijkstra?
+
+3. What does Dijkstra's compute? 
+
+4. Does the algorithm still work if the graph has negative weights?
+
+5. Explain the edge relaxation process.  

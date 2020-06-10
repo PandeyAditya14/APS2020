@@ -1,0 +1,14 @@
+** Warshall Exercise **
+==================
+
+1. Comment on efficiency of Warshall's algorithm. 
+
+2. What is the right data structure to implement Warshall?
+
+3. What does Warshall's compute? 
+
+4. Can we do better than cubic efficiency? 
+
+5. Why does Warshall's algorithm work? Explain the intuition. 
+
+6. What happens if the edges are weighted? 

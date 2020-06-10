@@ -1,0 +1,16 @@
+** Bellman-Ford Exercise **
+==================
+
+1. Comment on efficiency of Bellman-Ford's algorithm. 
+
+2. What is the right data structure to implement Bellman-Ford?
+
+3. What does Bellman-Ford's compute? 
+
+4. What is a negative edge and what is a negative cycle?
+
+5. Why does the algorithm work even if there are negative weight edges? 
+
+6. Which is better, Dijkstra or Bellman-Ford?
+
+7. Differentiate between Dijkstra and Bellman-Ford. 

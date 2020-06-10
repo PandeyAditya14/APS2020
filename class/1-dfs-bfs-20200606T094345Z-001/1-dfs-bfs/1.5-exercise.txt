@@ -1,0 +1,16 @@
+** DFS-BFS Exercise **
+==================
+
+1. Write down atleast four differences between DFS and BFS.
+
+2. What is the right data structure to implement DFS?
+
+3. What is the right data structure to implement BFS?
+ 
+4. Can we implement iterative DFS traversal?
+
+5. Can we implement recursive BFS Traversal?
+
+6. Comment on the efficiency of DFS and BFS. Which representation is efficient - Matrix or Linked list?  
+
+7. Create a complete graph of 5 nodes and write the two traversals. 

@@ -25,7 +25,7 @@ void addEdge(vector<int> adj[] ,int u, int v){
  * @param visited type: vector<bool> ; desc: visited list
  * @param node type: vector<bool> ; desc: root node
  */
-void DFS_Util(vector<int> adj[], vector<bool> visited, int node){
+void DFS_Util(vector<int> adj[], vector<bool> &visited, int node){
     visited[node]=true;
     cout<<node<<"=>";
     for (auto it: adj[node]){

@@ -1,10 +1,9 @@
 #include <bits/stdc++.h>
  
-using namespace std;
- 
 typedef long long ll;
 typedef long double ld;
 typedef pair<int,int> p32;
+typedef pair<int,bool> pb;
 typedef pair<ll,ll> p64;
 typedef pair<double,double> pdd;
 typedef vector<ll> v64;
@@ -30,13 +29,29 @@ double eps = 1e-12;
 #define fast_cin() ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL)
 #define all(x) (x).begin(), (x).end()
 #define sz(x) ((ll)(x).size())
- 
-
 void solve(){
 }
 int main()
 {
     fast_cin();
-    
+    priority_queue<pb> q;
+    int n;
+    cin>>n;
+    for(int i = 0 ; i<n ; i++){
+        int num1 , num2;
+        cin>>num1>>num2;
+        q.insert(mp(-num1,true));
+        q.insert(mp(-num2,false));
+    }
+    int curr = 0 , max = INT_MIN;
+    for(auto it: q){
+        if(it.second){
+            curr+=1;
+            max = max(max,curr);
+        }
+        else
+            curr-=1;
+    }
+    cout<<max;
     return 0;
 }

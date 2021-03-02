@@ -1,9 +1,10 @@
 #include <bits/stdc++.h>
- 
+using namespace std;
+
 typedef long long ll;
 typedef long double ld;
 typedef pair<int,int> p32;
-typedef pair<int,bool> pb;
+typedef pair<int,bool> pbl;
 typedef pair<ll,ll> p64;
 typedef pair<double,double> pdd;
 typedef vector<ll> v64;
@@ -34,24 +35,27 @@ void solve(){
 int main()
 {
     fast_cin();
-    priority_queue<pb> q;
+    priority_queue<pbl> q;
     int n;
     cin>>n;
     for(int i = 0 ; i<n ; i++){
         int num1 , num2;
         cin>>num1>>num2;
-        q.insert(mp(-num1,true));
-        q.insert(mp(-num2,false));
+        q.push(mp(-num1,true));
+        q.push(mp(-num2,false));
     }
-    int curr = 0 , max = INT_MIN;
-    for(auto it: q){
+    int curr = 0 , max_t = INT_MIN;
+    while(!q.empty())
+    {
+        auto it = q.top();
+        q.pop();
         if(it.second){
             curr+=1;
-            max = max(max,curr);
+            max_t = max(max_t,curr);
         }
         else
             curr-=1;
     }
-    cout<<max;
+    cout<<max_t;
     return 0;
 }

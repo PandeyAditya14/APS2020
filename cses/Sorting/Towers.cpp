@@ -11,11 +11,11 @@ int main(){
         int j = ct; 
         long long int temp; cin>>temp;
         while(temp < arr[j]) j--;
-        arr[j++] = temp;
+        arr[++j] = temp;
         ct = max(ct,j);
     }
     cout<<ct<<"\n";
-    for(int i = 0 ; i < n ; i++) cout<<arr[i]<<" ";
-    cout<<"\n";
+    // for(int i = 0 ; i < n ; i++) cout<<arr[i]<<" ";
+    // cout<<"\n";
 
 }

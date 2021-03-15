@@ -25,7 +25,7 @@ int main(){
                 cout<<arr[lf].second+1<<" "<<arr[i].second+1<<" "<<arr[rt].second+1<<"\n";
                 return 0;
             }
-            else if(x_temp < (arr[lf].second + arr[rt].second)) rt--;
+            else if(x_temp < (arr[lf].first + arr[rt].first)) rt--;
             else lf++;
         } 
     }
